@@ -5,6 +5,7 @@ const header = styled.div`
     width: 100%;
     background-color: whitesmoke;
     opacity: 80%;
+    box-shadow: 2px 0px 4px black;
 `
 
 const burgerMenu = styled.div`

@@ -7,6 +7,14 @@ const card = styled.div`
     border-radius: 10px;
     margin-bottom: 30px;
 `
+const text = styled.p`
+    font-size: 15px;
+    display: none;
+`
 
-const Style = {card}
+const title = styled.p`
+    padding: 2px;
+`
+
+const Style = {card, text, title}
 export default Style

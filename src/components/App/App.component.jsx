@@ -35,7 +35,7 @@ function App() {
       <AuthProvider>
         <Layout>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="*">
               <HomePage />
             </Route>
             <Route exact path="/login">
@@ -44,7 +44,7 @@ function App() {
             <Private exact path="/secret">
               <SecretPage />
             </Private>
-            <Route path="*">
+            <Route path="/">
               <NotFound />
             </Route>
           </Switch>
